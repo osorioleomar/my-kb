@@ -1,0 +1,39 @@
+{
+  "file_name": "sample2.txt",
+  "total_chunks": 3,
+  "chunks": [
+    {
+      "chunk_id": 0,
+      "text": "Understanding Vector Databases: A Practical Guide Vector databases have become an essential component in modern AI applications, particularly in the field of similarity search and retrieval. These specialized databases are designed to efficiently store and search through high-dimensional vector embeddings, making them perfect for applications like semantic search, recommendation systems, and image recognition. What are Vector Embeddings? Vector embeddings are numerical representations of data (text, images, audio, etc.) in a high-dimensional space. These representations capture the semantic meaning of the data, allowing us to perform similarity searches and find related content. For example, the sentence \"I love programming\" and \"Coding is my passion\" would have similar vector representations, even though they use different words. Key Features of Vector Databases 1. Efficient Similarity Search - Fast nearest neighbor search - Support for various distance metrics (cosine, Euclidean, etc.) - Optimized for high-dimensional data 2. Scalability - Horizontal scaling capabilities - Distributed architecture - Support for large-scale deployments 3. Performance - Optimized indexing structures - Caching mechanisms - Batch processing support Popular Vector Database Solutions Several vector database solutions have gained popularity in the industry: 1. FAISS (Facebook AI Similarity Search) - Developed by Facebook Research - Highly optimized for GPU and",
+      "source_file": "sample2.txt",
+      "position": 0,
+      "word_count": 200,
+      "metadata": {
+        "chunk_size": 200,
+        "overlap": 50
+      }
+    },
+    {
+      "chunk_id": 1,
+      "text": "architecture - Support for large-scale deployments 3. Performance - Optimized indexing structures - Caching mechanisms - Batch processing support Popular Vector Database Solutions Several vector database solutions have gained popularity in the industry: 1. FAISS (Facebook AI Similarity Search) - Developed by Facebook Research - Highly optimized for GPU and CPU - Supports various index types 2. Milvus - Open-source vector database - Cloud-native architecture - Rich feature set 3. Pinecone - Managed vector database service - Easy to use - Good for production deployments 4. Weaviate - GraphQL interface - Multi-modal support - Built-in machine learning capabilities Best Practices for Vector Databases When working with vector databases, consider these best practices: 1. Index Selection - Choose the right index type for your use case - Balance between search speed and accuracy - Consider memory constraints 2. Data Management - Regular maintenance and optimization - Proper data partitioning - Efficient update strategies 3. Performance Tuning - Monitor query performance - Optimize batch sizes - Use appropriate hardware resources 4. Security Considerations - Implement access controls - Encrypt sensitive data - Regular security audits Future Trends The vector database landscape continues to evolve with several emerging trends: 1. Hybrid Search -",
+      "source_file": "sample2.txt",
+      "position": 150,
+      "word_count": 200,
+      "metadata": {
+        "chunk_size": 200,
+        "overlap": 50
+      }
+    },
+    {
+      "chunk_id": 2,
+      "text": "update strategies 3. Performance Tuning - Monitor query performance - Optimize batch sizes - Use appropriate hardware resources 4. Security Considerations - Implement access controls - Encrypt sensitive data - Regular security audits Future Trends The vector database landscape continues to evolve with several emerging trends: 1. Hybrid Search - Combining vector search with traditional search - Multi-modal search capabilities - Advanced filtering options 2. Cloud Integration - Better cloud-native features - Improved scalability - Enhanced monitoring tools 3. AI Integration - Built-in embedding generation - Automated optimization - Advanced analytics capabilities Conclusion Vector databases are becoming increasingly important in the AI ecosystem, providing the foundation for many modern applications. As the technology matures, we can expect to see more sophisticated features and better integration with existing systems. Understanding and effectively utilizing vector databases is crucial for building scalable and efficient AI applications.",
+      "source_file": "sample2.txt",
+      "position": 300,
+      "word_count": 143,
+      "metadata": {
+        "chunk_size": 200,
+        "overlap": 50
+      }
+    }
+  ]
+}
